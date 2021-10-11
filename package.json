@@ -1,0 +1,32 @@
+{
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "youtube.com/c/revengenyks31",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord-buttons": "^4.0.0",
+    "discord.js": "^12.5.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.2",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2",
+    "quick.db": "^7.1.2",
+    "weky": "^3.1.8"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://youtube.com/c/revengenyks31"
+  },
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "node",
+    "v12"
+  ]
+}
