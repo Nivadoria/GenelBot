@@ -4,13 +4,13 @@ const db = require('quick.db')
 exports.run = async(client, message, args) => {
    
     
-let kanal = "893573481550217216"
-let chat = "893574103221555270"
-let alınacakrol = "841781008528703488"
-let kayıtrol = "841075366546243624"
-let kayıtçı = "841788354559082556"
-let çizgi = "|"
-let age = "12" 
+let kanal = "Kanal İD"
+let chat = "Chat İD"
+let alınacakrol = "Kayıtsız Rol İD"
+let kayıtrol = "Member Rol İD"
+let kayıtçı = "Staff Rol İD"
+let çizgi = "Çizgi"
+let age = "Yaş Sınırı" 
 
 
    
@@ -31,8 +31,8 @@ member.roles.add(kayıtrol)
 const başarılı = new discord.MessageEmbed()
 .setColor('RANDOM')
 .setDescription(`Kayıt edilen kullanıcı: ${member} \n Kayıt eden yetkili: <@!${message.author.id}>\n`)
-.addField(`${client.emojis.cache.get('833777856516456468')} Kullanıcının ismi:`, `${isim}`, true)
-.addField(`${client.emojis.cache.get('809186477258178611')} Kullanıcının yaşı:`, `${yaş}`, true)
+.addField(`${client.emojis.cache.get('İd')} Kullanıcının ismi:`, `${isim}`, true)
+.addField(`${client.emojis.cache.get('İd')} Kullanıcının yaşı:`, `${yaş}`, true)
 
 message.channel.send(başarılı)
 db.add(`kayıtsayı.${message.author.id}.toplam`, 1);
