@@ -2,7 +2,7 @@ const discord = require("discord.js");
 const db = require("quick.db");
 
 exports.run = async (client, message, args) => {
-let kayıtçı = "841788354559082556"
+let kayıtçı = "İD"
 let kayıt = db.fetch(`kayıtsayı.${message.author.id}.toplam`);
 let kullanıcı = message.mentions.members.first() || message.guild.members.cache.get(args[0]);
 
