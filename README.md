@@ -11,7 +11,7 @@ Uzun zaman sunucum için derldeiğim botu paylaşıyorum umarım işinize yarar.
 
 ## Botu Başlatma
 
-- Ayarlamaları tamamladıktan sonra, Modül.bat'ı açarak modüllerin kurulmasını bekleyiniz.
+- Ayarlamaları tamamladıktan sonra, modül.bat'ı açarak modüllerin kurulmasını bekleyiniz.
 - Modüller kurulduktan sonra başlat.bat'ı açarak botunuzun Discord'a bağlanması bekleyiniz.
 - Her şeyi tamamladıktan sonra botunuz kullanıma hazır :)
 
