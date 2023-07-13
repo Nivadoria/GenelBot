@@ -1,12 +1,12 @@
 # Genel Bot
 
-Uzun zaman sunucum için derldeiğim botu paylaşıyorum umarım işinize yarar.
+Uzun zaman sunucum için derlediğim botu paylaşıyorum umarım işinize yarar.
 
 ## Ayarlamalar
 
 - ayarlar.json içerisindeki "Token" gibi doldurulması gereken yerleri doldurunuz.
 - Staff-Kayıt içerisindeki İD bölümlerine idleri yazınız.
-- Staff-KayıtSayı içerisindeki "Kayıt sorumlusu" idsini yazınız.
+- Staff-Kayıt Sayı içerisindeki "Kayıt sorumlusu" idsini yazınız.
 - index.js içerisindeki Hoşgeldin mesajı için kullanmak istediğiniz emoji idlerini yazınız.
 
 ## Botu Başlatma
